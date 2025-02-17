@@ -1,61 +1,45 @@
-import Logo from './image2.png'
-import Illustration1 from './Illustration 1.png'
-import Illustration2 from './Illustration 2.png'
-import ArrowRight from './arrow-right.png'
-import Bulbimage from './surface1.png'
-import girlsimage from './girlsimage.png'
-import  planeElement from './Plane Element.png'
-import bgellipse from './Bg Ellipse.png'
-import vector5 from './vector5.png'
-import Semicircle from './Semi Circle.png'
-import frame1 from './Frame1.png'
-import frame2 from './Frame2.png'
-import frame3 from './Frame3.png'
-import vector6 from './vector6.png'
-import vector8 from './vector8.png'
-import vector9 from './vector9.png'
-import vector from './vector.png'
-import orangeellipse from './orangeellipse.png'
-import greenellipse from './greenellipse.png'
-import growth from './growth.png'
-import rocket from './rocket.png'
-import vector10 from './vector10.png'
-import vector11 from './vector10.png'
-import surface1 from './surface1.png'
-import FooterBackground from './Rectangle 33.png'
+import adobeicon from './adobe.svg'
+import icon2 from './icon2.svg'
+import icon3 from './icon3.svg'
+import spotifyicon from './spotifyicon.svg'
+import icon5 from './icon5.svg'
+import icon6 from './icon6.svg'
+import avatar1 from './avatar1.svg'
+import avatar2 from './avatar2.svg'
+import avatar3 from './avatar3.svg'
+import avatar4 from './avatar4.svg'
+import avatar5 from './avatar5.svg'
+import avatar6 from './avatar6.svg' 
+import avatar7 from './avatar7.svg'
+import avatar8 from './avatar8.svg'    
+import carticon from './carticon.svg'
+import dropimage from './dropbox.svg'
+import notification from './notification.svg'
+import valleticon from './valleticon.svg'
+import cssicon from './css3icon.svg'
 
 
 
-
-
-
-
-
-export const assets={
-    Logo,
-    Illustration1,
-    Illustration2,
-    ArrowRight,
-    Bulbimage,
-    girlsimage,
-    planeElement,
-    bgellipse,
-    vector5,
-    Semicircle,
-    frame1,
-    frame2,
-    frame3,
-    vector6,
-    vector8,
-    vector9,
-    vector,
-    orangeellipse,
-    greenellipse,
-    rocket,
-    growth,
-    vector10,
-    vector11,
-    surface1,
-    FooterBackground,
-
+export  const icons={
+adobeicon,
+icon2,
+icon3,
+spotifyicon,
+icon5,
+icon6,
+valleticon,
+notification,
+dropimage,
+carticon,
+cssicon
+}
+export const avatars={
+avatar1,
+avatar2,
+avatar3,
+avatar4,
+avatar5,
+avatar6,
+avatar7,
+avatar8
 }

@@ -1,23 +1,88 @@
-import { assets } from "../assets/assets"
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
+import DashboardIcon from "@mui/icons-material/Dashboard";
+import PersonIcon from "@mui/icons-material/Person";
+import VpnKeyIcon from "@mui/icons-material/VpnKey";
+import HowToRegIcon from "@mui/icons-material/HowToReg";
+import logo from '../assets/Shape.svg'
+import { useNavigate } from "react-router-dom";
+
 const Navbar = () => {
+  const navigate= useNavigate();
   return (
-    <div className="relative left-0 w-full  font-sans ">
-        <div className="container mx-auto flex justify-between items-center py-4 px-20  ">
-          <img src={assets.Logo} className="w-30 h-10" alt="" />
-          <ul className="flex space-x-6">
-            <li className="cursor-pointer text-[#473E6D] font-bold ">Home </li>
-            <li  className="cursor-pointer text-[#473E6D] font-bold ">Solution{<ExpandMoreIcon/>}</li>
-            <li className="cursor-pointer text-[#473E6D] font-bold">Why-System-3{<ExpandMoreIcon/>}</li>
-            <li className="cursor-pointer text-[#473E6D] font-bold">About Us{<ExpandMoreIcon/>}</li>
-            <li className="cursor-pointer text-[#473E6D] font-bold">Contact Us  </li>
-          </ul>
-          <button className="bg-gradient-to-r from-green-400 to-blue-400  md:block px-8 py-2 rounded-full text-[#FCFCFC] font-bold">Register/Login{<ArrowForwardIcon/>}  </button>
-          <span className="absolute bottom-0 left-0 w-full h-0.5  bg-gradient-to-r from-green-400 to-blue-400"></span>
-        </div>
-    </div>
-  )
-}
+    <AppBar
+      position='static'
+      sx={{
+        background: "linear-gradient(to right, #FFFFFFD1, #FFFFFFCC)",
+        boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.1)",
+        borderRadius: "16px",
+        width: "1037px",
+        height: "72px",
+        display: "flex",
+        justifyContent: "center",
+        zIndex:1
+      }}
+    >
+      <Toolbar sx={{ justifyContent: "space-between", px: 2 }}>
+        <Box display="flex" alignItems="center">
+          <img
+            src={logo} 
+            alt="Logo"
+            style={{ marginRight: 8 }}
+          />
+          <Typography  sx={{ color: "#2D3748", fontWeight: "bold",fontSize:'16px' }}>
+            PURITY UI DASHBOARD
+          </Typography>
+        </Box>
+
+        <Box display="flex" alignItems="center" gap={3}>
+          <Button
+            startIcon={<DashboardIcon />}
+            sx={{ color: "#2D3748", textTransform: "none", fontSize: "12px",fontWeight: "bold" }}
+           onClick={()=>navigate('/')}
+         >
+            DASHBOARD
+          </Button>
+          <Button
+            startIcon={<PersonIcon />}
+            sx={{ color: "#2D3748", textTransform: "none", fontSize: "12px",fontWeight: "bold" }}
+            onClick={()=>navigate('/profile')}
+          >
+            PROFILE
+          </Button>
+          <Button
+            startIcon={<HowToRegIcon />}
+            sx={{ color: "#2A2E3B", textTransform: "none", fontSize: "12px",fontWeight: "bold" }}
+            onClick={()=>navigate('/signup')}
+          >
+            SIGN UP
+          </Button>
+          <Button
+            startIcon={<VpnKeyIcon />}
+            sx={{ color: "#2D3748", textTransform: "none", fontSize: "12px",fontWeight: "bold" }}
+            onClick={()=>navigate('/signin')}
+          >
+            SIGN IN
+          </Button>
+        </Box>
+
+        <Button
+          variant="contained"
+          sx={{
+            backgroundColor: "#313860",
+            borderRadius: "20px",
+            textTransform: "none",
+            fontSize: "12px",
+            padding: "6px 16px",
+            "&:hover": {
+              backgroundColor: "#151928",
+            },
+          }}
+        >
+          Free Download
+        </Button>
+      </Toolbar>
+    </AppBar>
+  );
+};
 
 export default Navbar;
