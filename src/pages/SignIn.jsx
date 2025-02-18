@@ -1,6 +1,6 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
-import Navbar from "../components/Navbar";
+import Navbar from '../components/Navbar'
 import chakraimage from "../assets/chakraimage.png";
 
 const SignIn = () => {
@@ -14,7 +14,7 @@ const SignIn = () => {
             alignContent: "center",
           }}
         >
-          <Navbar />
+          <Navbar/>
         </Box>
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box
