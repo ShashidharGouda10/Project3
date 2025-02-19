@@ -26,7 +26,7 @@ const Appbar = () => {
     }
   };
   const breadcrumbs = getBreadcrumbs(location.pathname);
-// hello
+
   return (
     <>
       <AppBar
@@ -35,7 +35,7 @@ const Appbar = () => {
           width: `calc(100% - ${drawerWidth}px)`,
           ml: `${drawerWidth}px`,
           
-        }}
+        }} 
        
       >
         <Toolbar
