@@ -53,7 +53,7 @@ const Profile = () => {
             p: 2,
             display: "flex",
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: "space-between", 
             borderRadius: 3,
             background: "linear-gradient(to right, #FFFFFFD1, #FFFFFFCC)",
             boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",

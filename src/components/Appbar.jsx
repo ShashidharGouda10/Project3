@@ -19,7 +19,7 @@ const Appbar = () => {
         return ["Pages", "Billing"];
       case "/profile":
         return ["Pages", "Profile"];
-      case "/sigin":
+      case "/signin":
         return ["Pages", "Sign Ip"];
       default:
         return ["Pages", "Dashboard"];
