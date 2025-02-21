@@ -136,6 +136,7 @@ export default function Dashboard() {
       sx={{
         width: `calc(100% - ${drawerWidth}px)`,
         ml: `${drawerWidth}px`,
+        backgroundColor:'#F8F9FA'
       }}
     >
       <CssBaseline />
@@ -143,7 +144,7 @@ export default function Dashboard() {
       <Sidebar />
       <Box
         component="main"
-        sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
+        sx={{ flexGrow: 1, bgcolor: "#F8F9FA", p: 3 }}
       >
         <Toolbar />
         <Box

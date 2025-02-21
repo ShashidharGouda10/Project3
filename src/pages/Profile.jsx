@@ -32,7 +32,7 @@ const appbarHeight = 80;
 
 const Profile = () => {
   return (
-    <Box>
+    <Box sx={{bgcolor:'#F8F9FA'}}>
       <CssBaseline />
       <Appbar />
       <Sidebar />
