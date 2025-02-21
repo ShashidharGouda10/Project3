@@ -132,7 +132,8 @@ const projects = [
 
 const Tables = () => {
   return (
-    <>
+    <> 
+      <Box sx={{bgcolor:'#F8F9FA'}}>
       <CssBaseline />
       <Appbar />
       <Sidebar />
@@ -333,6 +334,7 @@ const Tables = () => {
             </TableContainer>
           </Box>
         </Paper>
+      </Box>
       </Box>
     </>
   );

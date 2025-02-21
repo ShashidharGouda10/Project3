@@ -35,7 +35,7 @@ const Sidebar = () => {
   };
 
   const drawerContent = (
-    <Box sx={{ width: drawerWidth, bgcolor: "#F8F9FA" }}>
+    <Box sx={{ width: drawerWidth, bgcolor: "#F8F9FA", border:'none', boxShadow:'none' ,  }}>
       <Box
         sx={{
           margin: "10px",
@@ -43,6 +43,7 @@ const Sidebar = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
+         
         }}
       >
         <img src={logo} style={{ width: "20px" }} alt="logo" />
@@ -60,7 +61,6 @@ const Sidebar = () => {
                   bgcolor: "#FFFFFF",
                   padding: "5px",
                   borderRadius: "12px",
-                  width: "45px",
                   height: "45px",
                   display: "flex",
                   alignItems: "center",

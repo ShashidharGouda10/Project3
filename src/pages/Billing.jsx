@@ -99,7 +99,7 @@ const transactions = [
 
 const Billing = () => {
   return (
-    <div>
+    <Box sx={{bgcolor:'#F8F9FA'}} >
       <CssBaseline />
       <Appbar />
       <Sidebar />
@@ -725,7 +725,7 @@ const Billing = () => {
           </Paper>
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 

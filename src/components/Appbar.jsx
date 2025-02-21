@@ -19,7 +19,7 @@ const Appbar = () => {
         return ["Pages", "Billing"];
       case "/profile":
         return ["Pages", "Profile"];
-      case "/sigin":
+      case "/signin":
         return ["Pages", "Sign Ip"];
       default:
         return ["Pages", "Dashboard"];
@@ -29,11 +29,14 @@ const Appbar = () => {
 
   return (
     <>
+      
       <AppBar
         position="fixed"
         sx={{
           width: `calc(100% - ${drawerWidth}px)`,
           ml: `${drawerWidth}px`,
+          border: "none",
+          boxShadow:'none'
           
         }} 
        
@@ -44,6 +47,7 @@ const Appbar = () => {
             display: "flex",
             justifyContent: "space-between",
             border: "none",
+            boxShadow:'none'
           }}
         >
           <Box>
