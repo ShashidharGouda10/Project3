@@ -21,7 +21,7 @@ const SignUp = () => {
  
         }}
       >
-      <Navbar/>
+      <Navbar />
       </Box>
       <Box sx={{ display: "flex", justifyContent: "center",flexDirection:'column', alignItems:'center' }}>
         <Box
