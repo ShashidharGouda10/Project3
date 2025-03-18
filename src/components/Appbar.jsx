@@ -3,9 +3,6 @@ import { Settings, Notifications, Person } from "@mui/icons-material";
 import SearchIcon from "@mui/icons-material/Search";
 import { useLocation,  } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
-
-
 const drawerWidth = 240;
 
 const Appbar = () => {
@@ -33,6 +30,7 @@ const Appbar = () => {
       <AppBar
         position="fixed"
         sx={{
+          
           width: `calc(100% - ${drawerWidth}px)`,
           ml: `${drawerWidth}px`,
           border: "none",
@@ -93,7 +91,7 @@ const Appbar = () => {
                 <Notifications sx={{ color: "#718096" }} />
               </IconButton>
             </Box>
-          </Box>
+          </Box> 
         </Toolbar>
       </AppBar>
     </>

@@ -1,6 +1,6 @@
 
 import  { useState } from "react";
-import { Drawer, Box, Typography, List, ListItem, ListItemButton, ListItemIcon, ListItemText, IconButton } from "@mui/material";
+import { Drawer, Box, Typography, List, ListItem, ListItemButton, ListItemIcon, ListItemText, IconButton, } from "@mui/material";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
@@ -38,7 +38,7 @@ const Sidebar = () => {
     <Box sx={{ width: drawerWidth, bgcolor: "#F8F9FA", border:'none', boxShadow:'none' ,  }}>
       <Box
         sx={{
-          margin: "10px",
+          margin: "5px",
           padding: "20px",
           display: "flex",
           justifyContent: "space-between",
