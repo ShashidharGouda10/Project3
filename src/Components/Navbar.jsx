@@ -27,9 +27,9 @@ const Navbar = () => {
           <img
             src={logo} 
             alt="Logo"
-            style={{ marginRight: 8 }}
+            style={{ marginRight:8 }}
           />
-          <Typography  sx={{ color: "#2D3748", fontWeight: "bold",fontSize:'16px' }}>
+          <Typography  sx={{ color: "#2D3748", fontWeight: "bold",fontSize:'16px'}}>
             PURITY UI DASHBOARD
           </Typography>
         </Box>

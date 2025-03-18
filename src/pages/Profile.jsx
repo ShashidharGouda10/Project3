@@ -557,10 +557,12 @@ const Profile = () => {
           </Paper>
         </Box>
       </Box>
-      <Box sx={{position:'absolute', top:'0', 
+      <Box sx={{position:'absolute', top:-50, 
             width: `calc(100% - ${drawerWidth}px)`,
             ml: `${drawerWidth}px`,
-            p:1
+            p:1,
+            
+            
           }}>
       <img src={background} style={{ width:'1000px'}} alt="" />
       </Box>

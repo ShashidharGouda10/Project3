@@ -5,6 +5,7 @@ import AppleIcon from "@mui/icons-material/Apple";
 import GoogleIcon from "@mui/icons-material/Google";
 import bgimage from '../assets/Background.png'
 import Navbar from "../components/Navbar";
+
 const SignUp = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const SignUp = () => {
  
         }}
       >
-       <Navbar/>
+      <Navbar/>
       </Box>
       <Box sx={{ display: "flex", justifyContent: "center",flexDirection:'column', alignItems:'center' }}>
         <Box
