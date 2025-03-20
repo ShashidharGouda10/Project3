@@ -52,7 +52,7 @@ const Navbar = () => {
           <Button
             startIcon={<HowToRegIcon />}
             sx={{ color: "#2A2E3B", textTransform: "none", fontSize: "12px",fontWeight: "bold" }}
-            // onClick={()=>navigate('/signup')}
+            onClick={()=>navigate('/signup')}
           >
             SIGN UP
           </Button>
