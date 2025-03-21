@@ -1,7 +1,7 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
 import chakraimage from "../assets/chakraimage.png";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavBar";
  
 
 const SignIn = () => {
